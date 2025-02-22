@@ -23,11 +23,6 @@ function App() {
     getData();
   },[])
 
-  const test = (event)=>{
-    // const name = event.target.value;
-    console.log(event);
-  }
-
   return (
     <div className="container mx-auto p-4">
       <div className="mb-6 flex flex-col sm:flex-row gap-4">
@@ -36,7 +31,7 @@ function App() {
           placeholder="搜尋產品..."
           className="p-2 border rounded-md flex-grow"
           value={''}
-          onChange={() => {test()}}
+          onChange={() => {}}
           />
         <select
           className="p-2 border rounded-md"
